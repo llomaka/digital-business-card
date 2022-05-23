@@ -4,7 +4,7 @@ import photo from "../../images/photo.jpg";
 export default function Main() {
   return (
       <div className="main container">
-        <img className="main--image" src={photo} alt="Lilia Lomaka photo"/>
+        <img className="main--image" src={photo} alt="Lilia Lomaka"/>
         <div className="main--caption">
           <h1 className="main--name">Lilia Lomaka</h1>
           <p className="main--title">Frondend Developer</p>
