@@ -4,11 +4,11 @@ import photo from "../../images/photo.jpg";
 export default function Main() {
   return (
       <div className="main container">
-        <img className="main--image" src={photo} />
+        <img className="main--image" src={photo} alt="Lilia Lomaka photo"/>
         <div className="main--caption">
           <h1 className="main--name">Lilia Lomaka</h1>
           <p className="main--title">Frondend Developer</p>
-          <a className="main--website" href="#">lilialomaka.website</a>
+          <p className="main--website">lilialomaka.website</p>
           <div className="main--links">
             <Button
               key="email"
