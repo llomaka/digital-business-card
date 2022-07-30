@@ -7,8 +7,8 @@ export default function Main() {
         <img className="main--image" src={photo} alt="Lilia Lomaka"/>
         <div className="main--caption">
           <h1 className="main--name">Lilia Lomaka</h1>
-          <p className="main--title">Frontend Developer</p>
-          <p className="main--website">lilialomaka.website</p>
+          <p className="main--title">Trainee Full Stack Developer (JS, React)</p>
+          <p className="visually-hidden main--website">lilialomaka.website</p>
           <div className="main--links">
             <Button
               key="email"

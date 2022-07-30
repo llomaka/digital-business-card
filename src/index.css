@@ -7,11 +7,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
 :root {
   --primary-text-color: #DCDCDC;
   --secondary-text-color: #F5F5F5;
@@ -84,7 +79,7 @@ body {
 }
 
 .container {
-  width: 317px;
+  width: 400px;
   margin: 0 auto;
 
 }
@@ -94,7 +89,7 @@ body {
 }
 
 .main--image {
-  max-width: 317px;
+  max-width: 400px;
   margin: 10px auto;
   border-radius: 10px 10px 0px 0px;
 }
@@ -105,15 +100,15 @@ body {
 
 .main--name {
   margin-bottom: 6px;
-  font-size: 25px;
+  font-size: 2rem;
   line-height: 1.2;
   text-align: center;
   color: var(--white-color);
 }
 
 .main--title {
-  margin-bottom: 9px;
-  font-size: 13px;
+  margin-bottom: 15px;
+  font-size: 1rem;
   line-height: 1.15;
   text-align: center;
   color: var(--complementary-color);
@@ -122,7 +117,7 @@ body {
 .main--website {
   display: block;
   margin-bottom: 15px;
-  font-size: 10px;
+  font-size: 0.7rem;
   line-height: 1.5;
   text-align: center;
   color: var(--secondary-text-color);
@@ -130,7 +125,7 @@ body {
 
 .main--links {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-bottom: 32px;
 }
 
@@ -171,12 +166,12 @@ body {
 
 .main--header {
   margin-bottom: 5px;
-  font-size: 16px;
+  font-size: 1.2rem;
   line-height: 1.5;
 }
 
 .main--text {
-  font-size: 10px;
+  font-size: 1rem;
   line-height: 1.5;
 }
 
